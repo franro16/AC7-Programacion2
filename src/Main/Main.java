@@ -1,4 +1,4 @@
-// Importaciones de paquetes personalizados y librerías estándar
+package Main;// Importaciones de paquetes personalizados y librerías estándar
 import biblioteca.conexionBD;           // Clase que maneja la conexión a la base de datos y creación de tablas
 import modelos.Autor;                  // Clase modelo que representa un autor
 import modelos.Lector;                 // Clase modelo que representa un lector
