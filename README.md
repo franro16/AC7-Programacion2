@@ -4,7 +4,11 @@ Cada autor puede tener varios libros asociados, y cada lector puede estar vincul
 
 El código realiza las siguientes funciones:
 -Conexión con la base de datos mediante JDBC, utilizando un archivo dedicado para manejar la conexión (conexionBD.java).
+
 -Creación automática de las tablas necesarias en la base de datos (si no existen).
+
 -Carga inicial de datos: Se cargan varios autores, libros y lectores directamente desde el código Java.
+
 -Relaciones entre datos: Se relacionan los libros con sus autores y los lectores con los libros que están leyendo.
+
 -Consulta y visualización: Se realiza una consulta automática que muestra una lista de lectores junto con el título del libro que están leyendo y el nombre del autor del libro.
